@@ -1,8 +1,11 @@
 // Import Cypress commands
 import './commands'
 
+// Import Cypress explicitly to avoid namespace issues
+// Removed incorrect import as Cypress is globally available
+
 // Import mount utility from cypress/react (or cypress/react18 if using React 18+)
-import { mount } from '@cypress/react'
+import { mount } from 'cypress/react'
 
 // Make the `mount` function globally available
 declare global {

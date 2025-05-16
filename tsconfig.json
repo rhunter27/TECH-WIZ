@@ -15,8 +15,7 @@
       "noEmit": true,                          // Do not emit output (handled by bundler)
       "jsx": "react-jsx",                      // Use the new React 17+ JSX transform
       "rootDir": ".",
-    },
-
+      },
     //"include": ["src", "./**/*"],              // Include all files in src folder and match pattern
   }
   
