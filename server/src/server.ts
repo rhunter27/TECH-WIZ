@@ -1,7 +1,7 @@
 import express from 'express';
 import * as path from 'node:path';
 
-import db from './config/connection.js';
+import db from './config/connection';
 import routes from './routes/index';
 
 
